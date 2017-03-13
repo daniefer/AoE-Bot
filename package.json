@@ -1,0 +1,19 @@
+{
+  "name": "aoe-bot",
+  "version": "1.0.0",
+  "description": "Chat bot that responds to Age of Empires II audio taunt commands with the text equivalent. Will make audio actually work someday.",
+  "main": "lib/aoe-bot.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daniefer/aoe-bot"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Ferguson",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "slackbots": "^1.0.2",
+    "sqlite3": "^3.1.8"
+  }
+}
